@@ -16,7 +16,6 @@ class Solution {
                 hash.set(currentNum, currentNumIndex)
             } else {
                 const hashIndex = hash.get(difference)
-                currentNumIndex
                 return [Math.min(currentNumIndex, hashIndex), Math.max(currentNumIndex, hashIndex)]
             }
         }
